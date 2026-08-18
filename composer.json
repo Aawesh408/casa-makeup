@@ -1,0 +1,28 @@
+{
+    "name": "aaweshtiwari/salonsphere",
+    "autoload": {
+        "psr-4": {
+            "Aaweshtiwari\\Salonsphere\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aawesh Tiwari",
+            "email": "aaweshtiwari40@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^7.1",
+        "phpoffice/phpspreadsheet": "1.29"
+    },
+    "config": {
+        "policy": {
+            "advisories": {
+                "block": false
+            }
+        },
+        "platform": {
+            "php": "8.0.30"
+        }
+    }
+}
